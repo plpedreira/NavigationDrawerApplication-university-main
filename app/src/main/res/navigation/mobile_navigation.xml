@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_ccp">
+
+    <fragment
+        android:id="@+id/nav_ccp"
+        android:name="com.example.navigationdrawerapplication.ui.ccp.CcpFragment"
+        android:label="@string/menu_ccp"
+        tools:layout="@layout/fragment_ccp" />
+
+    <fragment
+        android:id="@+id/nav_ads"
+        android:name="com.example.navigationdrawerapplication.ui.ads.AdsFragment"
+        android:label="@string/menu_ads"
+        tools:layout="@layout/fragment_ads" />
+
+    <fragment
+        android:id="@+id/nav_about_us"
+        android:name="com.example.navigationdrawerapplication.ui.about_us.AboutUsFragment"
+        android:label="@string/menu_about_us"
+        tools:layout="@layout/fragment_about_us" />
+
+    <fragment
+        android:id="@+id/nav_contact"
+        android:name="com.example.navigationdrawerapplication.ui.contact.ContactFragment"
+        android:label="@string/menu_contact"
+        tools:layout="@layout/fragment_contact" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.navigationdrawerapplication.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+</navigation>

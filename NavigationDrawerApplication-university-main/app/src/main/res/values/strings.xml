@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">NavigationDrawerApplication</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Cruzeiro do Sul</string>
+    <string name="pedro_name">Pedro Henrique de Souza e Silva</string>
+    <string name="tristan_name">Tristan Phelip Oliveira Ribas</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="close_app">Sair</string>
+
+    <string name="menu_ccp">Ciência da computação</string>
+    <string name="menu_ads">Análise e Desenvolvimento de Sistemas</string>
+    <string name="menu_about_us">Quem somos</string>
+    <string name="menu_contact">Contato</string>
+    <string name="menu_gallery">Galeria</string>
+</resources>
